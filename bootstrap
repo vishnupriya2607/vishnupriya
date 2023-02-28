@@ -1,0 +1,225 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <img src="pro.png" width="55" height="50">
+    </div>
+    <div class="  collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle"
+                data-toggle="dropdown"
+                href="#">Page 1<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    
+                    <li><a href="#">page 1-1</a></li>
+                    <li><a href="#">page 1-2</a></li>
+                    <li><a href="#">page 1-3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">page 2</a></li>
+            <li><a href="#">page 3</a></li>
+        </ul>
+    </div>
+    </div>
+</nav>
+<div class="container-fluid">
+<h1 class="bg-danger text-warning text-uppercase text-center">pro kabadi</h1>
+<div class="container">
+<img src="C:\Users\ELCOT\Desktop\New folder\season 9.jpg" class="img-circle" width="100%" height="100%" >
+</div><br><br>
+<center><button type="button" class="btn btn-md btn-primary text-warning disabled">standing</button></center>
+<div class="table-responsive">
+<table class="table table-dark table-striped">
+<tr bgcolor:"black;">
+<th> position</th>
+<th> Team</th>
+<th> Match played</th>
+<th>win</th>
+<th>lose</th>
+<th> tie</th>
+<th>Total points</th>
+</tr>
+<tr>
+<td>1</td>
+<td><img src="C:\Users\ELCOT\Desktop\New folder\jaipur.jpg" width="55" height="50"></td>
+<td> 22</td>
+<td> 15</td>
+<td>6</td>
+<td>1</td>
+<td>82</td>
+
+</tr>
+<tr>
+<td>2</td>
+<td><img src="C:\Users\ELCOT\Desktop\New folder\puneri.jpg" width="55" height="50"></td>
+<td> 22</td>
+<td> 14</td>
+<td>6</td>
+<td>2</td>
+<td>80</td>
+
+</tr>
+<tr>
+<td>3</td>
+<td><img src="C:\Users\ELCOT\Desktop\New folder\bn.jpg" width="55" height="50"></td>
+<td> 22</td>
+<td> 13</td>
+<td>8</td>
+<td>1</td>
+<td>74</td>
+
+</tr><tr>
+<td>4</td>
+<td><img src="C:\Users\ELCOT\Desktop\New folder\up.jpg" width="55" height="50"></td>
+<td> 22</td>
+<td> 12</td>
+<td>8</td>
+<td>2</td>
+<td>71</td>
+
+</tr><tr>
+<td>5</td>
+<td><img src="C:\Users\ELCOT\Desktop\New folder\tamil.png" width="55" height="50"></td>
+<td> 22</td>
+<td> 10</td>
+<td>8</td>
+<td>4</td>
+<td>66</td>
+
+</tr><tr>
+<td>6</td>
+<td><img src="C:\Users\ELCOT\Desktop\New folder\delhi.jpg" width="55" height="50"></td>
+<td> 22</td>
+<td> 10</td>
+<td>10</td>
+<td>2</td>
+<td>63</td>
+
+</tr><tr>
+<td>7</td>
+<td><img src="C:\Users\ELCOT\Desktop\New folder\hariyana.jpg" width="55" height="50"></td>
+<td> 22</td>
+<td> 10</td>
+<td>10</td>
+<td>2</td>
+<td>61</td>
+
+</tr><tr>
+<td>8</td>
+<td><img src="C:\Users\ELCOT\Desktop\New folder\gup.jpg" width="55" height="50"></td>
+<td> 22</td>
+<td> 9</td>
+<td>11</td>
+<td>2</td>
+<td>59</td>
+
+</tr>
+<tr>
+<td>9</td>
+<td><img src="C:\Users\ELCOT\Desktop\New folder\umumba.png" width="55" height="50"></td>
+<td> 22</td>
+<td> 10</td>
+<td>12</td>
+<td>0</td>
+<td>56</td>
+
+</tr>
+<tr>
+<td>10</td>
+<td><img src="C:\Users\ELCOT\Desktop\New folder\patna.jpg" width="55" height="50"></td>
+<td> 22</td>
+<td> 8</td>
+<td>11</td>
+<td>3</td>
+<td>54</td>
+
+</tr>
+<tr>
+<td>11</td>
+<td><img src="C:\Users\ELCOT\Desktop\New folder\bengal.jpg" width="55" height="50"></td>
+<td> 22</td>
+<td> 8</td>
+<td>11</td>
+<td>3</td>
+<td>53</td>
+
+</tr>
+<tr>
+<td>12</td>
+<td><img src="C:\Users\ELCOT\Desktop\New folder\telungu.png" width="55" height="50"></td>
+<td> 22</td>
+<td> 2</td>
+<td>6</td>
+<td>0</td>
+<td>15</td>
+
+</tr>
+</table>
+</div><br>
+<div class="progress">
+<div class="progress-bar progress-bar-primary progress-bar-striped active" role="progressbar" style="width:70%">already filled sheets
+</div>
+<div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" style="width:30%">available
+</div>
+</div>
+<div class="alert alert-warning">
+<h1><strong style=color:green;> soon!</strong> seat will be filled soon <a href="form.html" class="alert-link"> click to register!</a></h1>
+</div>
+<div class="row" style=color:white;>
+<div class="col-md-6" style="background-color:grey;">TEAMS<br>
+<div class="row"><br>
+<div class="col-md-6"> Tamil thalaivas</div><br><br>
+<div class="col-md-6"> Bengaluru Bulls</div><br><br>
+<div class="col-md-6"> Dabang Delhi K.C</div><br><br>
+<div class="col-md-6"> Gujarat Giants</div><br><br>
+<div class="col-md-6"> Haryana Steelers</div><br><br>
+<div class="col-md-6"> Jaipur pink panthers</div><br><br>
+<div class="col-md-6"> Patna Pirates</div><br><br>
+<div class="col-md-6">Puneri Paltan</div><br><br>
+<div class="col-md-6"> Telugu Titans </div><br><br>
+<div class="col-md-6">U Mumba</div><br><br>
+<div class="col-md-6"> U.P.Yoddhas</div><br><br>
+<div class="col-md-6"> Bengal Warriors</div><br><br>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6" style="background-color:grey;">Captain<br>
+<div class="row"><br>
+<div class="col-md-6">Tamil Thalaivas - Pawan Kumar
+ </div><br><br>
+<div class="col-md-6">Bengal Warriors – Maninder Singh</div><br><br>
+<div class="col-md-6">Dabang Delhi KC – Naveen Kumar Goyat </div><br><br>
+<div class="col-md-6">Gujarat Giants – Chandran Ranjit </div><br><br>
+<div class="col-md-6">Haryana Steelers – Joginder Singh Narwal </div><br><br>
+<div class="col-md-6"> Jaipur Pink Panthers – Sunil Kumar</div><br><br>
+<div class="col-md-6">Patna Pirates – Neeraj Kumar </div><br><br>
+<div class="col-md-6">Puneri Paltan – Fazel Atrachali</div><br><br>
+<div class="col-md-6">Telugu Titans – Ravinder Pahal</div><br><br>
+<div class="col-md-6">U Mumba – Surinder Singh</div><br><br>
+<div class="col-md-6">UP Yoddhas – Nitesh Kumar</div><br><br>
+<div class="col-md-6">Bengaluru Bulls-Mahender Singh</div><br><br>
+
+</div>
+</div>
+
+</body>
+</html>
