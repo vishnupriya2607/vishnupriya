@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+
+<h1><center> REGISTRATION FORM</center></h1>
+<div class="form-group">
+<form action="boots.html"class="was-validated">
+
+<label for="name" class="form-label">NAME:</label>
+<input type="text" class="form-control" id="name"required>
+<div class="valid-feedback">valid</div>
+<div class="invalid-feedback">please fill this</div>
+</div>
+<label>EMAIL:</label><br>
+  <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+  </div>
+<label>PASSWORD:</label>
+  <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+    <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+  </div>
+<label>seat reservation:</label><br>
+
+<label class="checkbox-inline"><input type="checkbox" class="form-check-input" disabled>first</label>
+<label class="checkbox-inline"><input type="checkbox" class="form-check-input" >middle</label>
+<label class="checkbox-inline"><input type="checkbox" class="form-check-input" >last</label><br>
+<label>payment method:</label>
+<div class="radio">
+<label><input type="radio" name="optradio">gpay</label>
+</div>
+<div class="radio">
+<label><input type="radio" name="optradio">phonepay</label>
+</div>
+<button type="submit" class="btn btn-primary">submit</button>
+</form>
+</div>
+
+
+</html>
