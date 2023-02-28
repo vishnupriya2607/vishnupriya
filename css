@@ -1,0 +1,95 @@
+<html>
+<style>
+.a{color:block;}
+h2{color:red;}
+.ii{position:relative;top:20px;}
+#f{position:absolute;top:1165px;margin:550px;}
+.ppt{color:red;}
+#hii{color:brown;}
+*{color:5F0F40;}
+.simple{color:black;}
+#hl{color:red;}
+</style>
+<ul class="care">
+<li><a href="first.html"class="ppt"><center>HTML</a></li>
+<li><a href="https://en.wikipedia.org/wiki/C_(programming_language)" class="ppt">
+WIKIPEDIA</a></li>
+<li><a href="https://www.google.com" class="ppt">
+Google</a></li>
+<li><a href="VISHNUPPT.pdf" class="ppt">PPT</a></li>
+<li style=background-color:orange;><a href="#">Home</a></li>
+</ul><br><br><br><br><br><br><br><br>
+<head>
+<link rel="stylesheet" type="text/css" href="n2.css">
+</head>
+<div>
+<h1>welcome to programming</h1>
+</div>
+<img src="C:\Users\ELCOT\Pictures\Camera Roll\c.jpg"width="250" height="250">
+
+<h3 id="hl"> <center>C programming language" redirects here. For the book, see The C Programming Language.Not to be confused with C++ or C#."</h3>
+<h3 id="hii" style=font-family:algerian;>The C programming language uses libraries as its primary method of extension. In C, a library is a set of functions contained within a single "archive" file. Each library typically has a header file, which contains the prototypes of the functions contained within the library that may be used by a program, and declarations of special data types and macro symbols used with these functions. In order for a program to use a library, it must include the library's header file, and the library must be linked with the program, which in many cases requires compiler flags (e.g., -lm, shorthand for "link the math library").[34]
+
+The most common C library is the C standard library, which is specified by the ISO and ANSI C standards and comes with every C implementation (implementations which target limited environments such as embedded systems may provide only a subset of the standard library). This library supports stream input and output, memory allocation, mathematics, character strings, and time values. Several separate standard headers (for example, stdio.h) specify the interfaces for these and other standard library facilities.
+
+Another common set of C library functions are those used by applications specifically targeted for Unix and Unix-like systems, especially functions which provide an interface to the kernel. These functions are detailed in various standards such as POSIX and the Single UNIX Specification.
+
+Since many programs have been written in C, there are a wide variety of other libraries available. Libraries are often written in C because C compilers generate efficient object code; programmers then create interfaces to the library so that the routines can be used from higher-level languages like Java, Perl, and Python.[34]
+
+<mark>"File handling and streams
+</mark>File input and output (I/O) is not part of the C language itself but instead is handled by libraries (such as the C standard library) and their associated header files (e.g. stdio.h). File handling is generally implemented through high-level I/O which works through streams. A stream is from this perspective a data flow that is independent of devices, while a file is a concrete device. The high-level I/O is done through the association of a stream to a file. In the C standard library, a buffer (a memory area or queue) is temporarily used to store data before it is sent to the final destination. This reduces the time spent waiting for slower devices, for example a hard drive or solid state drive. Low-level I/O functions are not part of the standard C library[clarification needed] but are generally part of "bare metal" programming (programming that's independent of any operating system such as most embedded programming). With few exceptions, implementations include low-level I/O.
+
+Language tools
+
+This section needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed. (July 2014) (Learn how and when to remove this template message)
+A number of tools have been developed to help C programmers find and fix statements with undefined behavior or possibly erroneous expressions, with greater rigor than that provided by the compiler. The tool lint was the first such, leading to many others.
+
+Automated source code checking and auditing are beneficial in any language, and for C many such tools exist, such as Lint.</h3>
+<div class="ii">
+<img src="C:\Users\ELCOT\Pictures\Camera Roll\c.jpg"width="500" height="500">
+</div><br>
+<div id="f">
+<img src="8.jpg"width="500" height="500">
+</div>
+<h3 id="hii"> FUNCTIONS</h3>
+<ol type="a" class="simple">
+<li>branching statement</li>	
+<li> sequencial statement</li>
+<li> looping</li>	
+</style>																									
+</ol>
+<h3 id="hii"> PRATICE</h3>
+
+
+<table border="5" bgcolor="green" width="500" height="500" cellspacing="50" cellpadding="50">
+<tr bgcolor="red">
+<th bg>S.NO</th>
+<th>Operater Name</th>
+<th> Symbol</th>
+</tr>
+<tr bgcolor="yellow">
+<td> 1</td>
+<td>AND</td>
+<td>&&</td>
+</tr>
+<tr bgcolor="yellow">
+<td> 2</td>
+<td>OR</td>
+<td>||</td>
+</tr>
+<tr bgcolor="yellow">
+<td> 3</td>
+<td>NOT</td>
+<td>!</td>
+</tr>
+<thead>
+<tr bgcolor="yellow">
+<td colspan="3"><center>C OPERATER</td> </tr>
+</table border>
+<a href="#top"class="ppt"style=font-size:30;><center>top</a><br>
+<a href="image.html"class="ppt"style=font-size:30;> FORM</a><br><br>
+<video controls width=="50" height="500">
+<source src="c p.mp4">
+</video>
+<audio controls>
+<source src="c p.mp4">
