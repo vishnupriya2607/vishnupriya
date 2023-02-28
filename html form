@@ -1,0 +1,50 @@
+<html>
+<style>
+.hi{color:red;
+background-color:grey;}
+</style>
+<body bgcolor="skyblue">
+<h1 class="hi"><center>Registration form</center></h1>
+<fieldset>
+<legend>PERSONAL DETAILS</legend>
+<form action="first.html">
+<label> first name</label>
+<input type="text",maxlength="10" placeholder="your name"><br><br>
+<label> second name</label>
+<input type="text",maxlength="10"><br><br>
+password:<br>
+<input type="password"><br><br>
+<label>gender</label>
+<input type="radio"name="gender">male
+<input type="radio"name="gender">female<br><br>
+<lable> department</lable>
+<select>
+<option>CSE</option>
+<option>ECE</option>
+<option>EEE</option>
+</select><br><br>
+date of joining:
+<input type="date" name="first" value="dd-mm-yy" tabindex="5" required><br><br>
+<label> year of studying</label>
+<input type="number" min="1" max="4" step=1><br><br>
+programme:
+<input type="checkbox" name="programme">C
+<input type="checkbox" name="programme">C++
+<input type="checkbox" name="programme">JAVA<br><br>
+email:
+<input type="email"><br><br>
+skill level:
+<input type="range"><br><br>
+<label> Institution</label>
+<input type="text"placeholder="CSC" disabled><br><br>
+<label> credit</label>
+<input type="text" placeholder="4" readonly><br> <br>
+<legend> ADDRESS</legend>
+<textarea name= "address" value="address" rows="6" cols="50">
+</textarea><br><br>
+
+<input type="submit">
+</form>
+</fieldset>
+</body>
+</html>
